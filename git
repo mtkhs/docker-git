@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker run -ti --rm --user $UID:$GID -v $(pwd):/git -v $HOME/.gitconfig:/etc/gitconfig mtkhs/git
+docker run -ti --rm --user $UID:$GID -v $(pwd):/git -v $HOME/.gitconfig:/etc/gitconfig mtkhs/git $@
